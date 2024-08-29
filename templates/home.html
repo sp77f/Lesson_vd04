@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+    {% block title %}
+        ДЗ к уроку VD05 Мегакурсы
+    {% endblock %}
+  {% block content %}
+  <div class="row justify-content-center gy-3">
+    <div class="col-12">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../static/img/emp011.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block bs-light-bg-subtle">
+                <h5>Наши преподаватели</h5>
+                <p class="text-bg-info p-3">Альбина Кузнецова , преподаватель онланй курсов</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../static/img/emp021.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block "  >
+                <h5>Наши преподаватели</h5>
+                <p class="text-bg-info p-3">Ирина Смирнова , преподаватель курсов "Курс №2" и "Курс №3" на очном курсе</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../static/img/emp031.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Наши преподаватели</h5>
+                <p class="text-bg-info p-3">Кирилл Петров , преподаватель курсов "Курс №1" на очном курсе</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+          </button>
+        </div>
+    </div>
+  </div>
+  <div class="row gy-3">
+      <div class="col"> <p> </p></div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 gy-8">
+  <div class="col">
+    <div class="card h-100">
+      <img src="../static/img/img01.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Курс №1</h5>
+        <p class="card-text">Этот курс предназначен для начинающих пользователей. Длительность курса 3 месяца</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="../static/img/img02.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Курс №2</h5>
+        <p class="card-text">Этот курс предназначен для опытных пользователей. Длительность курса 4 месяца</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="../static/img/img03.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Курс №3</h5>
+        <p class="card-text">Этот курс предназначен для продвинутых пользователей. Длительность курса 5 месяца</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100" >
+      <img src="../static/img/img04.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Курс №4</h5>
+        <p class="card-text">Этот курс предназначен для преподавателей. Длительность курса 2 месяца</p>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row gy-3">
+      <div class="col"> <p> </p></div>
+  </div>
+
+  <div class="row justify-content-center gy-3">
+    <div class="col-8">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Очное обучение
+            </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">это форма образовательного процесса, при которой студенты посещают учебные заведения, такие как школы, колледжи или университеты, для получения знаний и навыков в традиционном классе. Преподавание осуществляется непосредственно преподавателем, что позволяет обеспечить интерактивное взаимодействие, участие в дискуссиях и выполнение практических заданий.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Заочное обучение
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">это форма обучения, при которой студенты получают образование удалённо, используя учебные материалы, предоставленные учебным заведением. Занятия проводятся в удобное для студентов время, что позволяет совмещать учёбу с работой или другими обязанностями. Обычно заочное обучение включает периодические сессии, на которых студенты могут встретиться с преподавателями и сдать экзамены.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Онлайн обучение
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">это современная форма образования, которая осуществляется через интернет. Студенты могут учиться в любое время и в любом месте, получая доступ к видеолекциям, учебным материалам и интерактивным заданиям. Онлайн обучение предоставляет гибкость и разнообразие методов обучения, включая вебинары, форумы и виртуальные классы, что делает его доступным для широкого круга обучающихся.</div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="row gy-3">
+      <div class="col"> <p> </p></div>
+  </div>
+
+  </div>
+{% endblock %}

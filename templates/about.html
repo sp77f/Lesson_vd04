@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+    {% block title %}
+        ДЗ к уроку VD05 Контакты
+    {% endblock %}
+
+{% block content %}
+  <div class="row justify-content-center gy-3">
+    <div class="col-12">
+      <h1>Контакты</h1>
+    </div>
+  </div>
+  <div class="row gy-3">
+      <div class="col"> <p> </p></div>
+  </div>
+  <div class="row gy-8">
+  <div class="col-12">
+    <p>Наш офис расположен в удобном месте по следующему адресу:</p>
+    <p>г. Москва, ул. Ленина, д. 1</p>
+    <img src="../static/img/map01.jpg" class="card-img-top" alt="...">
+    <p>Здесь вы можете найти всю необходимую информацию для связи с нами. Мы рады ответить на ваши вопросы о курсах обучения, расписании занятий и условиях записи.</p>
+
+  </div>
+</div>
+  <div class="row gy-3">
+      <div class="col"> <p> </p></div>
+  </div>
+
+  <div class="row justify-content-center gy-3">
+    <div class="col-8">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Очное обучение
+            </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">это форма образовательного процесса, при которой студенты посещают учебные заведения, такие как школы, колледжи или университеты, для получения знаний и навыков в традиционном классе. Преподавание осуществляется непосредственно преподавателем, что позволяет обеспечить интерактивное взаимодействие, участие в дискуссиях и выполнение практических заданий.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Заочное обучение
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">это форма обучения, при которой студенты получают образование удалённо, используя учебные материалы, предоставленные учебным заведением. Занятия проводятся в удобное для студентов время, что позволяет совмещать учёбу с работой или другими обязанностями. Обычно заочное обучение включает периодические сессии, на которых студенты могут встретиться с преподавателями и сдать экзамены.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Онлайн обучение
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">это современная форма образования, которая осуществляется через интернет. Студенты могут учиться в любое время и в любом месте, получая доступ к видеолекциям, учебным материалам и интерактивным заданиям. Онлайн обучение предоставляет гибкость и разнообразие методов обучения, включая вебинары, форумы и виртуальные классы, что делает его доступным для широкого круга обучающихся.</div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="row gy-3">
+      <div class="col"> <p> </p></div>
+  </div>
+
+  </div>
+ {% endblock %}
